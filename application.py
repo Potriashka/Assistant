@@ -1,4 +1,4 @@
-#Assistant of site v.2.2
+#Assistent in site v.2.3
 assistant = input('Здравствуйте, как вы хотели, чтоб меня звали?\n\n')
 print('\nХорошо, теперь я, ' + assistant + ' - ваш ассистент')
 answer = input('Что вы хотите? (Калькулятор, Шутка, Назвать, Время, Советы, Сайт, Погода)\n\n')
@@ -71,7 +71,7 @@ elif answer == 'Погода' or answer == 'погода':
     hao = input('\nВ каком месте вы хотите погоду? (Афины, Москва)\n')
     if hao == 'Афины' or hao == 'афины':
      import webbrowser
-     webbrowser.open("openweathermap.org/city/264371")
+     webbrowser.open("https://openweathermap.org/city/264371")
     elif hao == 'Москва' or hao == 'москва':
      import webbrowser
      webbrowser.open("https://openweathermap.org/city/524901")	
@@ -155,7 +155,7 @@ elif das == 'Погода' or answer == 'погода':
     hai = input('\nВ каком месте вы хотите погоду? (Афины, Москва)\n')
     if hai == 'Афины' or hai == 'афины':
      import webbrowser
-     webbrowser.open("openweathermap.org/city/264371")
+     webbrowser.open("https://openweathermap.org/city/264371")
     elif hai == 'Москва' or hai == 'москва':
      import webbrowser
      webbrowser.open("https://openweathermap.org/city/524901")
@@ -241,7 +241,7 @@ elif tot == 'Погода' or answer == 'погода':
     hau = input('\nВ каком месте вы хотите погоду? (Афины, Москва)\n')
     if hau == 'Афины' or hau == 'афины':
      import webbrowser
-     webbrowser.open("openweathermap.org/city/264371")
+     webbrowser.open("https://openweathermap.org/city/264371")
     elif hau == 'Москва' or hau == 'москва':
      import webbrowser
      webbrowser.open("https://openweathermap.org/city/524901")
@@ -330,7 +330,7 @@ else:
         hah = input('\nВ каком месте вы хотите погоду? (Афины, Москва)\n')
         if hah == 'Афины' or hah == 'афины':
          import webbrowser
-         webbrowser.open("openweathermap.org/city/264371")
+         webbrowser.open("https://openweathermap.org/city/264371")
         elif hah == 'Москва' or hah == 'москва':
          import webbrowser
          webbrowser.open("https://openweathermap.org/city/524901")
@@ -408,7 +408,7 @@ elif pot == 'Погода' or pot == 'погода':
     haoha = input('\nВ каком месте вы хотите погоду? (Афины, Москва)\n')
     if haoha == 'Афины' or haoha == 'афины':
      import webbrowser
-     webbrowser.open("openweathermap.org/city/264371")		
+     webbrowser.open("https://openweathermap.org/city/264371")		
     elif haoha == 'Москва' or haoha == 'москва':
      import webbrowser
      webbrowser.open("https://openweathermap.org/city/524901")		
@@ -420,3 +420,4 @@ else:
         
    
 all = input('\nК сожалению у меня закончились фразы((\nНо вы можете перезагрузить сраницу, если хотите возобновить диалог))\n')
+
